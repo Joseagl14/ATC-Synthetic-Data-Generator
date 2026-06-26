@@ -5,7 +5,7 @@ This repository contains the Python-based generation engine developed for my Bac
 It generates labeled synthetic Air Traffic Control (ATC) conversational pairs, specifically tailored for En-Route (cruise) operations. The output is optimized for training and evaluating Automatic Speech Recognition (ASR) and Natural Language Understanding (NLU) models.
 
 ## Features
-* **Template-based Generation:** Dynamic injection of aeronautical variables (mainly callsigns but can be adapted for waypoints and flight levels) into standard ATC phraseology.
+* **Template-based Generation:** Dynamic injection of aeronautical variables (callsigns, waypoints and flight levels) into standard ATC phraseology.
 * **Text-to-Speech (TTS):** Integration with `edge-tts` for realistic, multi-speaker voice synthesis.
 * **Dual-Channel Output:** Generates perfectly synchronized but isolated audio tracks for Controller and Pilot communications via `pydub`.
 * **Automatic Labeling:** Outputs a `.csv` file with Ground-Truth labels for Intent and Caller entities.
