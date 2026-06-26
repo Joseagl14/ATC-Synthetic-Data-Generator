@@ -1,4 +1,4 @@
-# ATC Synthetic Data Generator ✈️🎙️
+# ATC Synthetic Data Generator ✈️
 
 This repository contains the Python-based generation engine developed for my Bachelor's Thesis: *"Development of an AI Assistant for ATC based on Speech Recognition and Machine Learning"*. 
 
