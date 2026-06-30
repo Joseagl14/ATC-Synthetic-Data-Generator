@@ -4,7 +4,7 @@ This repository contains the Python-based generation engine developed for my Bac
 
 It generates labeled synthetic Air Traffic Control (ATC) conversational pairs, specifically tailored for En-Route (cruise) operations. The output is optimized for training and evaluating Automatic Speech Recognition (ASR) and Natural Language Understanding (NLU) models.
 
-A sample dataset created using this tool can be found at: https://huggingface.co/jacktol/whisper-large-v3-finetuned-for-ATC
+A sample dataset created using this tool can be found at: https://huggingface.co/datasets/Joseagl14/ATC-EnRoute-Synthetic-Dataset
 
 ## Features
 * **Template-based Generation:** Dynamic injection of aeronautical variables (callsigns, waypoints and flight levels) into standard ATC phraseology.
